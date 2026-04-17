@@ -38,7 +38,7 @@ The **Job Recommendation System** is a web-based application that analyzes a use
 
 ## 📂 Project Structure
 
-```
+
 job-recommendation-system/
 │
 ├── app.py
@@ -47,9 +47,7 @@ job-recommendation-system/
 └── README.md
 ```
 
----
-
-## ⚙️ Installation & Setup
+⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
 
@@ -74,13 +72,9 @@ python app.py
 
 ```
 http://127.0.0.1:5000/recommend
-```
 
----
-
-## 🧪 API Testing (Postman)
-
-* **Method:** POST
+ 🧪 API Testing (Postman)
+*Method:** POST
 * **Endpoint:** `/recommend`
 * **Body:** form-data
 
@@ -90,7 +84,7 @@ http://127.0.0.1:5000/recommend
 
 ## 📊 Sample Output
 
-```json
+`json
 [
   {
     "title": "Python Developer",
@@ -101,28 +95,14 @@ http://127.0.0.1:5000/recommend
     "score": 0.75
   }
 ]
-```
-
----
-
-## 🚀 Future Enhancements
+ 🚀 Future Enhancements
 
 * 🔍 Skill Gap Analysis (missing skills detection)
 * 🌐 Frontend using React
 * ☁️ Deployment (Render / Netlify)
 * 📊 Real-time job data integration (LinkedIn API)
 
----
 
-## 📸 Screenshots
-
-*Add screenshots of your project here*
-
----
-
-## 🌍 Live Demo
-
-*Add your deployed project link here*
 
 ---
 
